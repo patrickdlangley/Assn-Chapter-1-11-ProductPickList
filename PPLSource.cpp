@@ -32,7 +32,7 @@ int main()
 	int numMatches, numProds;
 	
 	const int SIZE = 100;
-	Product_S prods[SIZE];
+	Product_S prods[SIZE];  // array of Product_S structure variables
 
 	cout << setprecision(2) << fixed;
 	
