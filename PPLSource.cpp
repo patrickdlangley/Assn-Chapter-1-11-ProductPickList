@@ -26,7 +26,7 @@ void Store_Products(Product_S prods[], int SZ, int& numPrds);
 
 int main()
 {
-	vector <int> IDs;
+	vector <int> IDs;  // vector of product id's
 	double* totalPrice_p = new double;
 	double* avgPrice_p = new double;	
 	int numMatches, numProds;
