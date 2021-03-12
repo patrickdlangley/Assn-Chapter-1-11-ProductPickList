@@ -37,7 +37,7 @@ int main()
 	cout << setprecision(2) << fixed;
 	
 
-	Store_Products(prods, SIZE, numProds);
+	Store_Products(prods, SIZE, numProds);  // call function
 
 	Store_IDs(IDs);
 
@@ -120,7 +120,7 @@ void Store_IDs(vector <int>& ids)
 
 	cout << "\nEnter a Product ID to be picked>";
 	cin >> id;
-	while (id != 0)
+	while (id > 0)
 	{
 		ids.push_back(id);
 
